@@ -1,18 +1,18 @@
 function solution(s) {
 	return +s
-		.replaceAll(/zero/g, '0')
-		.replaceAll(/one/g, '1')
-		.replaceAll(/two/g, '2')
-		.replaceAll(/three/g, '3')
-		.replaceAll(/four/g, '4')
-		.replaceAll(/five/g, '5')
-		.replaceAll(/six/g, '6')
-		.replaceAll(/seven/g, '7')
-		.replaceAll(/eight/g, '8')
-		.replaceAll(/nine/g, '9');
+		.replace(/zero/g, '0')
+		.replace(/one/g, '1')
+		.replace(/two/g, '2')
+		.replace(/three/g, '3')
+		.replace(/four/g, '4')
+		.replace(/five/g, '5')
+		.replace(/six/g, '6')
+		.replace(/seven/g, '7')
+		.replace(/eight/g, '8')
+		.replace(/nine/g, '9');
 }
 
-console.log(solution('23four5six7'));
+console.log(solution('23four5six7six'));
 
 // function solution(s) {
 // 	let numbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
